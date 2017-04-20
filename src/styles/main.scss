@@ -1,0 +1,238 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: #fff;
+}
+
+#app-container {
+	background-color: #fff;
+}
+
+.nav-bar >* {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+}
+
+.nav-bar {
+	background-color: rgba(34, 49, 63,.90);
+	padding: 12px 0px;
+	text-align: right;
+	width: 100%;
+	padding-right: 40px;
+	position: fixed;
+	z-index: 10;
+}
+
+.nav-bar a {
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	padding-right: 36px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.body-container >* {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+}
+
+.body-container {
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.title {
+	background-color: #fff;
+	color: #22313F;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 28px;
+	padding: 200px 20px 150px 0px;
+	text-align: center;
+	border-bottom: solid thin #000;
+}
+
+.title h1 {
+	font-size: 76px;
+	font-weight: lighter;
+}
+
+.title h2 {
+	color: #1BBC9B;
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+}
+
+.pagetitle-appear {
+	opacity: 0.01;
+}
+
+.pagetitle-appear.pagetitle-appear-active {
+	opacity: 1;
+	transition: opacity 4s ease-in-out;
+}
+
+.projecttitle-appear {
+	opacity: 0.5;
+}
+
+.projecttitle-appear.projecttitle-appear-active {
+	animation: slide 2s ease-in;
+	@keyframes slide {
+		from {
+			transform: translateX(-100px);
+		}
+		to {
+			transform: translateX(300px);
+		}
+	}
+}
+
+.project-container {
+	// width: 45%;
+	margin-left: 7%;
+	font-size: medium;
+	// margin-right: auto;
+}
+
+.project-container i {
+	color: #fff;
+	padding-top: 48px;
+	padding-left: 40px;
+	padding-bottom: 48px;
+	text-align: center;
+}
+
+.project-container p {
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	color: #fff;
+	padding-left: 12px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+.card-head >* {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.card-head {
+	padding-top: 28px;
+	padding-left: 16px;
+}
+
+.card-head img {
+	max-width: 50%;
+	border-radius: 100%;
+	float: right;
+	padding-right: 16px;
+}
+
+.card-head h1 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+.about-container {
+	padding-top: 300px;
+	font-size: 28px;
+	background-color: #fff;
+	color: #22313F;
+	width: 600px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	margin-left: 4%;
+}
+
+.headshot {
+	background-color: #22313F;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills-container {
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+	color: #22313F;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.skills-container h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.skills-container ul {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+	width: 25%;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 75px;
+}
+
+.skills-container ul h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+
+.skills-container li {
+	font-size: 18px;
+}
+
+.res-link {
+	width: 100%;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.res-link h2 {
+	font-size: 28px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.res-link i {
+	color: #22313F;
+	font-size: 48px;
+}
+
+.contact-footer {
+	background-color: #22313F;
+	color: #22313F;
+	padding: 20px 0px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.contact-footer i {
+	margin-left: 44px;
+	color: #1BBC9B;
+	font-size: 18px;
+}
+
+.contact-footer span {
+	font-family: 'Oswald', sans-serif;
+}
+
+.contact-footer a {
+	text-decoration: none;
+	color: #1BBC9B;
+}
